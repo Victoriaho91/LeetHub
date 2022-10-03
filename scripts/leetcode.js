@@ -639,16 +639,16 @@ const loader = setInterval(() => {
         }
 
         /* Only create README if not already created */
-        if (sha === null) {
-          /* @TODO: Change this setTimeout to Promise */
-          uploadGit(
-            btoa(unescape(encodeURIComponent(probStatement))),
-            problemName,
-            'README.md',
-            readmeMsg,
-            'upload',
-          );
-        }
+        // if (sha === null) {
+        //   /* @TODO: Change this setTimeout to Promise */
+        //   uploadGit(
+        //     btoa(unescape(encodeURIComponent(probStatement))),
+        //     problemName,
+        //     'README.md',
+        //     readmeMsg,
+        //     'upload',
+        //   );
+        // }
       });
 
       /* get the notes and upload it */
